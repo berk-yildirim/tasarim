@@ -1,0 +1,183 @@
+/* Resetleme stilini uygula */
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    height: 20px;
+}
+
+/* Menü stilini tanımla */
+nav {
+    background-color: #ffffff;
+    position: fixed;
+    /* Sabit pozisyon */
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+/* Menü öğelerini düzenle */
+nav ul {
+    list-style: none;
+    text-align: right;
+    /* Öğeleri sağa hizala */
+    margin: 0;
+    padding: 20px;
+}
+
+nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    /* Öğeleri yan yana sıralı dizer */
+    margin-right: 20px;
+    /* Öğeler arasında boşluk bırak */
+}
+
+nav a {
+    text-decoration: none;
+    color: #141212;
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    color: #8ae067;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #8ae067;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.basla {
+    background-color: #8ae067;
+    color: rgb(223, 223, 223);
+    border-radius: 50px;
+    /*ovallik verir  */
+    padding: 10px 15px;
+
+}
+
+
+
+
+.alt-yazi {
+    background-color: #69c744;
+    color: white;
+    padding: 10px;
+    margin: 50px 0px;
+    text-align: center;
+
+}
+
+
+.web_dizayn {
+    margin: 50px;
+    padding: 50px 5px 10px 10px;
+    background-color: aquamarine;
+}
+
+
+
+.urun-kutulari {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.kutu1 {
+    padding: 0;
+    width: 25%;
+    border: 1px solid #ccc;
+
+    padding: 20px;
+    margin: 5px;
+}
+
+.kutu2 {
+    padding: 0;
+    width: 25%;
+    border: 1px solid #ccc;
+
+    padding: 20px;
+    margin: 5px;
+}
+
+.kutu3 {
+    padding: 0;
+    width: 25%;
+    border: 1px solid #ccc;
+
+    padding: 20px;
+    margin: 5px;
+}
+
+.urun-kutulari img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.urun-kutulari h1 {
+
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+
+
+.urun-kutulari p {
+
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.profil {
+
+    background-color: #EC173A;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+
+
+}
+
+.is-ve-ucret {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.is {
+    float: left;
+    background-color: #4db424;
+    max-width: 115px;
+
+    padding: 7px 20px;
+    color: #ffffff;
+}
+
+.profil-isim {
+    display: flex;
+    justify-content: first baseline;
+}
+
+.isim {
+    margin: 5px;
+    padding: 5px;
+}
